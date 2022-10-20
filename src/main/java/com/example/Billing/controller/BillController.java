@@ -5,6 +5,7 @@ import com.example.Billing.controller.dto.BillOutput;
 import com.example.Billing.controller.personalExceptions.BillExistsException;
 import com.example.Billing.controller.personalExceptions.ClientNotFoundException;
 import com.example.Billing.controller.personalExceptions.DatesIncorrectException;
+import com.example.Billing.domain.Bill;
 import com.example.Billing.services.BillService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
